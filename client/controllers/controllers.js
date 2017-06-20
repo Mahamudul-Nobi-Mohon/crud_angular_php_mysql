@@ -1,4 +1,4 @@
-myApp.controller('empController', function($route,$scope,$http,$routeParams){
+myApp.controller('empController2', function($route,$scope,$http,$routeParams){
 	$scope.getEmployees = function(){
 		$http.get('../api/select.php').then(function(response){
 			$scope.employees = response.data;

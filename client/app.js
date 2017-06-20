@@ -4,23 +4,23 @@ myApp.config(function($routeProvider){
 	$routeProvider
 	.when('/', {
 		templateUrl:'templates/list.html',
-		controller:'empController'
+		controller:'empController2'
 	})
 	.when('/employees', {
 		templateUrl:'templates/list.html',
-		controller:'empController'
+		controller:'empController2'
 	})
 	.when('/employees/create', {
 		templateUrl:'templates/create.html',
-		controller:'empController'
+		controller:'empController2'
 	})
 	.when('/employees/:id/edit', {
 		templateUrl:'templates/edit.html',
-		controller:'empController'
+		controller:'empController2'
 	})
 	.when('/employees/:id/show', {
 		templateUrl:'templates/show.html',
-		controller:'empController'
+		controller:'empController2'
 	});
 });
 
